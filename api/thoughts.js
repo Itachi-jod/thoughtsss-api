@@ -8,7 +8,7 @@ const usernames = [
   "literary.thoughtss"
 ];
 
-app.get("/api/status", async (req, res) => {
+app.get("/api/thoughts", async (req, res) => {
   // Step 1: Pick a random username
   const username = usernames[Math.floor(Math.random() * usernames.length)];
 
