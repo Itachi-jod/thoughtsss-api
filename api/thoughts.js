@@ -5,7 +5,8 @@ const PORT = process.env.PORT || 3000;
 
 // TikTok usernames
 const usernames = [
-  "literary.thoughtss"
+  "literary.thoughtss",
+  "mindsetdanz"
 ];
 
 app.get("/api/thoughts", async (req, res) => {
